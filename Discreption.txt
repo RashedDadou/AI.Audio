@@ -59,8 +59,9 @@ facebook/mms-tts-eng (optional)
 bash
 
 # Run the desktop interface (recommended)
-python Voice_processor.GUI.py
+python bootStarter.py
 
 Project PhilosophyKarbouji aims to provide the best possible open, local, Arabic-first voice technology stack that researchers, accessibility developers, content creators and dialect preservation enthusiasts can use and build upon without cloud dependencies or subscription walls.Built in Damascus/London 2025–2026
 © Rashed Dadouch – MIT License
+
 
