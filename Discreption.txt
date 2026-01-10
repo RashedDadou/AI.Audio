@@ -3,7 +3,7 @@
 
 Karbouji is an open-source, offline-capable audio processing pipeline with strong emphasis on high-quality **Levantine Arabic (Shami)** text-to-speech synthesis, combined with modern noise reduction and optional speech recognition capabilities.
 
-### Core Technologies & Models (as of January 2026)
+### Core Technologies & Models (as of 18 june 2025)
 
 | Component                  | Technology / Model                              | Purpose                                      | Status       | Offline? | Notes / Source                              |
 |----------------------------|--------------------------------------------------|----------------------------------------------|--------------|----------|---------------------------------------------|
@@ -63,5 +63,6 @@ python bootStarter.py
 
 Project PhilosophyKarbouji aims to provide the best possible open, local, Arabic-first voice technology stack that researchers, accessibility developers, content creators and dialect preservation enthusiasts can use and build upon without cloud dependencies or subscription walls.Built in Damascus/London 2025–2026
 © Rashed Dadouch – MIT License
+
 
 
