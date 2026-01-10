@@ -56,6 +56,50 @@ pip install df                 # DeepFilterNet3 enhancement
 Required models (download manually):facebook/mms-tts-ara
 facebook/mms-tts-eng (optional)
 
+Here are all the Python libraries required by the current version of Karbouji Crystal 2026 project (as of January 2026):Core / Always Requiredbash
+
+torch
+torchaudio
+transformers
+soundfile
+sounddevice
+numpy
+scipy
+pillow          # for loading icons/logo in GUI
+
+Strongly Recommended / Used in Main Featuresbash
+
+openai-whisper     # for speech recognition (STT)
+df                 # DeepFilterNet3 – noise reduction
+
+Optional / Feature-specificbash
+
+demucs             # advanced source separation (vocals/drums/etc.)
+
+Development / Debugging / Utilities (not required for normal usage)bash
+
+# These are useful during development but not needed to run the program:
+pydub              # sometimes used in examples or alternative audio handling
+tqdm               # optional progress bars (rarely used)
+
+Summary Table – Installation Groups
+
+Group                       Libraries                                                                              Purpose                               Required?
+Core                        torch, torchaudio, transformers, soundfile, sounddevice, numpy, scipy, pillow          Basic operation + GUI                 Yes  
+Speech Recognition          openai-whisper                                                                         Microphone → Text (Whisper)           Highly recommended
+Noise Enhancement           df                                                                                     DeepFilterNet3 – clean audio          Highly recommended 
+Source Separation           demucs                                                                                 Music separation (vocals/drums/…)     Optional
+Development extras          pydub, tqdm                                                                            Testing & debugging                   Not needed
+
+Typical Full Installation Command (most complete setup)bash
+
+pip install torch torchaudio transformers soundfile sounddevice numpy scipy pillow
+pip install openai-whisper df demucs
+
+Note:
+The project works offline after downloading the models (MMS-TTS ara/eng + Whisper).
+No internet is required during normal usage once everything is installed and models are downloaded.Good luck with the project! 
+
 bash
 
 # Run the desktop interface (recommended)
@@ -63,6 +107,7 @@ python bootStarter.py
 
 Project PhilosophyKarbouji aims to provide the best possible open, local, Arabic-first voice technology stack that researchers, accessibility developers, content creators and dialect preservation enthusiasts can use and build upon without cloud dependencies or subscription walls.Built in Damascus/London 2025–2026
 © Rashed Dadouch – MIT License
+
 
 
 
